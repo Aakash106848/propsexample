@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AboutUs from './MyComponents/AboutUs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App  firstName="QWERT" lastName="ASDFG" visitingTime="15"  username="JhonDoe" name={prompt("Enter")} />
+    <AboutUs CompanyName="GAVS" Address="Chennai" />
   </React.StrictMode>
 );
 
